@@ -87,13 +87,13 @@ Pada latihan ini dilakukan pengujian dasar menjalankan kode PHP menggunakan web 
 Latihan ini mendemonstrasikan deklarasi variabel untuk menampung komponen nilai mahasiswa (Tugas, UTS, UAS), menghitung nilai akhir menggunakan operator aritmatika berdasarkan bobot tertentu, serta menentukan predikat huruf (A, B, C, D) menggunakan struktur percabangan if-elseif-else.
 
 <img width="260" height="104" alt="2" src="https://github.com/user-attachments/assets/087e04da-433c-4f18-8064-48bf0e4cf4fc" />
-
+<br>
 <img width="242" height="111" alt="3" src="https://github.com/user-attachments/assets/a4a8dafd-5753-425f-b329-7db8ff760f94" />
 
 ---
 
 ### 3. Latihan 3 - Perulangan dan Array (latihan3.php)
-Pada latihan ini dibuat sebuah array yang menyimpan daftar nama mahasiswa.Seluruh elemen di dalam array tersebut kemudian ditelusuri dan ditampilkan secara otomatis ke dalam elemen daftar bernomor HTML (<ol>) menggunakan perulangan foreach.
+Pada latihan ini dibuat sebuah array yang menyimpan daftar nama mahasiswa.Seluruh elemen di dalam array tersebut kemudian ditelusuri dan ditampilkan secara otomatis ke dalam elemen daftar bernomor HTML (`<ol>`) menggunakan perulangan foreach.
 
 <img width="155" height="131" alt="4" src="https://github.com/user-attachments/assets/03ffcf51-567b-4f06-82b8-0aa2aeebcaa7" />
 
@@ -124,11 +124,11 @@ Latihan ini memproses data formulir input (Nama dan Program Studi) menggunakan m
 Pada latihan ini dibuat simulasi form transaksi penjualan barang. Server memvalidasi input agar nama barang tidak kosong serta harga dan jumlah bernilai numerik positif (is_numeric dan ctype_digit), kemudian menghitung total bayar (subtotal) secara otomatis.
 
 <img width="245" height="200" alt="9" src="https://github.com/user-attachments/assets/550c77a7-3011-4b36-b1e1-5b79840a7e65" />
-
+<br>
 <img width="173" height="87" alt="10" src="https://github.com/user-attachments/assets/a7bc93a5-a81c-49d8-a951-1046ac94228a" />
-
+<br>
 <img width="254" height="210" alt="11" src="https://github.com/user-attachments/assets/9cdeb40b-bdf3-44ce-a346-bd5baf15ce98" />
-
+<br>
 <img width="415" height="204" alt="12" src="https://github.com/user-attachments/assets/f3c04e5f-912e-440b-896b-62192a324345" />
 
 ---
@@ -137,9 +137,9 @@ Pada latihan ini dibuat simulasi form transaksi penjualan barang. Server memvali
 Aplikasi ini mengintegrasikan pemrosesan form POST dengan validasi ketat di sisi server (server-side validation). Sistem memeriksa kelengkapan seluruh kolom, memvalidasi format email menggunakan FILTER_VALIDATE_EMAIL, serta memastikan input semester berada pada rentang angka 1–14 sebelum menampilkan ringkasan data.
 
 <img width="310" height="434" alt="13" src="https://github.com/user-attachments/assets/375ced6f-6a06-478b-9c22-49db784a37b9" />
-
+<br>
 <img width="265" height="254" alt="14" src="https://github.com/user-attachments/assets/8de1765e-3e4a-45a7-a06e-e99efe2eeb14" />
-
+<br>
 <img width="368" height="258" alt="15" src="https://github.com/user-attachments/assets/b62821a6-11d8-449b-a93b-9a8cd2a1120f" />
 
 ---
@@ -147,15 +147,15 @@ Aplikasi ini mengintegrasikan pemrosesan form POST dengan validasi ketat di sisi
 # 9. Eksperimen Mandiri (eksperimen_mandiri.php)
 File ini menggabungkan kelima tantangan eksperimen mandiri ke dalam satu halaman terpadu, meliputi:
 
-Perhitungan nilai rata-rata dari tiga komponen nilai.
+-Perhitungan nilai rata-rata dari tiga komponen nilai.
 
-Fitur pencarian nama mahasiswa dari dalam array menggunakan metode GET.
+-Fitur pencarian nama mahasiswa dari dalam array menggunakan metode GET.
 
-Pembuatan fungsi formatRupiah() untuk memformat angka ke dalam mata uang Rupiah.
+-Pembuatan fungsi formatRupiah() untuk memformat angka ke dalam mata uang Rupiah.
 
-Validasi khusus input NIM yang mewajibkan 9 digit angka.
+-Validasi khusus input NIM yang mewajibkan 9 digit angka.
 
-Implementasi tombol reset form beserta penjelasan cara kerjanya di sisi client dibandingkan pemrosesan ulang di server.
+-Implementasi tombol reset form beserta penjelasan cara kerjanya di sisi client dibandingkan pemrosesan ulang di server.
 
 <img width="959" height="437" alt="16" src="https://github.com/user-attachments/assets/67a941d3-1969-4b0c-96c7-970b5e1a7e36" />
 
@@ -163,7 +163,7 @@ Implementasi tombol reset form beserta penjelasan cara kerjanya di sisi client d
 
 # Jawaban Pertanyaan Evaluasi
 
-### Apa perbedaan pemrosesan client-side dan server-side?
+### 1. Apa perbedaan pemrosesan client-side dan server-side?
 
 Jawaban: 
 
@@ -171,7 +171,7 @@ Client-side dieksekusi langsung di browser pengguna (HTML, CSS, JavaScript), sed
 
 ---
 
-### Mengapa file PHP harus dijalankan melalui web server?
+### 2. Mengapa file PHP harus dijalankan melalui web server?
 
 Jawaban: 
 
@@ -179,7 +179,7 @@ Karena kode PHP membutuhkan interpreter yang terpasang di dalam web server (Apac
 
 ---
 
-### Apa fungsi tanda $ pada variabel PHP?
+### 3. Apa fungsi tanda $ pada variabel PHP?
 
 Jawaban: 
 
@@ -187,7 +187,7 @@ Sebagai penanda sintaks wajib di awal nama variabel agar dikenali oleh interpret
 
 ---
 
-### Apa perbedaan metode GET dan POST?
+### 4. Apa perbedaan metode GET dan POST?
 
 Jawaban: 
 
@@ -195,7 +195,7 @@ GET mengirimkan data melalui parameter URL sehingga terlihat di address bar (coc
 
 ---
 
-### Mengapa input pengguna perlu divalidasi di sisi server?
+### 5. Mengapa input pengguna perlu divalidasi di sisi server?
 
 Jawaban: 
 
@@ -203,7 +203,7 @@ Karena validasi di sisi client (atribut HTML) dapat dengan mudah dimanipulasi pe
 
 ---
 
-### Apa fungsi htmlspecialchars() ketika menampilkan data dari form?
+### 6. Apa fungsi htmlspecialchars() ketika menampilkan data dari form?
 
 Jawaban:
 
@@ -211,7 +211,7 @@ Mengonversi karakter khusus HTML (<, >, &, ", ') menjadi entitas HTML yang aman 
 
 ---
 
-### Apa manfaat penggunaan function dalam program PHP?
+### 7. Apa manfaat penggunaan function dalam program PHP?
 
 Jawaban:
 
