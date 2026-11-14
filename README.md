@@ -93,11 +93,11 @@ Latihan ini mendemonstrasikan deklarasi variabel untuk menampung komponen nilai 
 ---
 
 ### 3. Latihan 3 - Perulangan dan Array (latihan3.php)
-Pada latihan ini dibuat sebuah array yang menyimpan daftar nama mahasiswa. Seluruh elemen di dalam array tersebut kemudian ditelusuri dan ditampilkan secara otomatis ke dalam elemen daftar bernomor HTML (<ol>) menggunakan perulangan foreach.
+Pada latihan ini dibuat sebuah array yang menyimpan daftar nama mahasiswa.Seluruh elemen di dalam array tersebut kemudian ditelusuri dan ditampilkan secara otomatis ke dalam elemen daftar bernomor HTML (<ol>) menggunakan perulangan foreach.
 
 <img width="155" height="131" alt="4" src="https://github.com/user-attachments/assets/03ffcf51-567b-4f06-82b8-0aa2aeebcaa7" />
 
---
+---
 
 ### 4. Latihan 4 - Membuat Function (latihan4.php)
 Latihan ini bertujuan untuk membiasakan pembuatan fungsi mandiri (user-defined function) agar kode bersifat modular dan dapat digunakan kembali (reusable). Fungsi yang dibuat meliputi hitungDiskon() untuk menghitung potongan harga dan hitungLuasPersegiPanjang() untuk menghitung luas bangun datar.
